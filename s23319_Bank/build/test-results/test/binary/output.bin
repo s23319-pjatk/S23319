@@ -1,0 +1,6 @@
+a18:30:22.809 [Test worker] INFO com.example.s23319.service.ClientService -- Currency isPLNandPLN
+r18:30:22.812 [Test worker] INFO com.example.s23319.service.ClientService -- Client created successfully with id 0
+a18:30:22.845 [Test worker] INFO com.example.s23319.service.ClientService -- Currency isPLNandPLN
+�18:30:22.845 [Test worker] ERROR com.example.s23319.service.ClientService -- Failed to create user with error: {balance=Saldo nie może być ujemne}
+a18:30:22.851 [Test worker] INFO com.example.s23319.service.ClientService -- Currency isPLNandPLN
+�18:30:22.852 [Test worker] ERROR com.example.s23319.service.ClientService -- Failed to create user with error: {pesel=Pesel musi mieć 11 znaków}

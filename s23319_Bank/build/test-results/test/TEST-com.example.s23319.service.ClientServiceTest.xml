@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.s23319.service.ClientServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-01-28T17:30:22" hostname="MacBook-Pro-Marceli.local" time="0.124">
+  <properties/>
+  <testcase name="ShouldCreateNewClient()" classname="com.example.s23319.service.ClientServiceTest" time="0.088"/>
+  <testcase name="[1] client=Client(id=null, pesel=12345678901, balance=-2, currency=PLN, Name=null, lastName=null), message={balance=Saldo nie może być ujemne}" classname="com.example.s23319.service.ClientServiceTest" time="0.013"/>
+  <testcase name="[2] client=Client(id=null, pesel=12340, balance=1000, currency=PLN, Name=Karol, lastName=Karolak), message={pesel=Pesel musi mieć 11 znaków}" classname="com.example.s23319.service.ClientServiceTest" time="0.001"/>
+  <system-out><![CDATA[18:30:22.809 [Test worker] INFO com.example.s23319.service.ClientService -- Currency isPLNandPLN
+18:30:22.812 [Test worker] INFO com.example.s23319.service.ClientService -- Client created successfully with id 0
+18:30:22.845 [Test worker] INFO com.example.s23319.service.ClientService -- Currency isPLNandPLN
+18:30:22.845 [Test worker] ERROR com.example.s23319.service.ClientService -- Failed to create user with error: {balance=Saldo nie może być ujemne}
+18:30:22.851 [Test worker] INFO com.example.s23319.service.ClientService -- Currency isPLNandPLN
+18:30:22.852 [Test worker] ERROR com.example.s23319.service.ClientService -- Failed to create user with error: {pesel=Pesel musi mieć 11 znaków}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
